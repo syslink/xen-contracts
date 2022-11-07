@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addDividend",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dividendPeriod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"XEN-Ex/interfaces/IDPool.sol": "IDPool"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"XEN-Ex/interfaces/IDPool.sol": {
+			"keccak256": "0xe80ab914da9b043862889b1991ad51726b2f60195c9b98962e8d8ac49a0d5cfa",
+			"urls": [
+				"bzz-raw://b5cb17811a0a6e60b8b181f55879964be27f6974697894ecca7bc25b8a848f3d",
+				"dweb:/ipfs/QmW61GnVTcMYym4gr2puUsgY2c8AmVjy9cWGwGCvFFe3nr"
+			]
+		}
+	},
+	"version": 1
+}
